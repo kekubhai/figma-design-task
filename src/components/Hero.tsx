@@ -2,16 +2,17 @@ import { Button } from "@/components/ui/button"
 
 export default function Hero() {
   return (
-    <section className="relative pt-32 pb-20 overflow-hidden">
-      
-      <div className="absolute top-20 left-20 w-2 h-2 bg-white rounded-full animate-pulse" />
-      <div className="absolute bottom-40 right-40 w-2 h-2 bg-white rounded-full animate-pulse" />
-      
-     
-      <div className="absolute top-20 right-0 w-72 h-72 bg-yellow-400 rounded-full blur-3xl opacity-20" />
-      
-      <div className="container mx-auto px-4">
-        <div className="max-w-2xl">
+    <div className="inline-block">
+
+    <img src="/bg.png" className="absolute top-0 left-0 h-screen w-screen bg-center bg-contain bg-no-repeat object-cover" alt="Background Image">
+      </img>
+    <section className="container  m-32 pt-32 pb-32 w-screen overflow-hidden relative">
+      <img src="/star-img-1.png" className="mt-2 "></img>
+      <img src="/circles.png" className="absolute mt-1 px-2 top-0 left-0 h-screen w-screen bg-center bg-contain bg-no-repeat object-cover" alt="Background Image">
+      </img>
+      <img src="/bg-gradient-img-1.png" className="absolute -top-20 right-12 -pr-20 object-cover " sizes="4"></img>
+      <div className="container mx-auto px-4 relative">
+        <div className="max-w-2xl relative">
           <h1 className="text-5xl md:text-6xl font-bold mb-4">
             Trusted Multi-Chain
             <br />
@@ -31,6 +32,7 @@ export default function Hero() {
         </div>
       </div>
     </section>
+    </div>
   )
 }
 

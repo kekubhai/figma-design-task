@@ -4,10 +4,10 @@ import Comparison from './components/Comparison'
 import Features from './components/Features'
 import Faq from './components/Faq'
 import Footer from './components/Footer'
-
+import '../app/globals.css'
 export default function App() {
   return (
-    <div className="min-h-screen bg-[#0B1221] text-white">
+    <div className=" w-full max-w-screen bg-[#0B1221] text-white">
       <Navbar />
       <main>
         <Hero />

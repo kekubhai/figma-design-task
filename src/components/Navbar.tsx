@@ -2,11 +2,11 @@ import { Button } from "@/components/ui/button"
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 w-full z-50 bg-[#0B1221]/80 backdrop-blur-sm">
+    <nav className="fixed top-0 w-full z-50 bg-transparent backdrop-blur-sm">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <img src="./logo.png" alt="Moonex" className="h-8 w-10" />
-          <span className="text-xl text-yellow-500 font-bold">Moonex</span>
+          <img src="./logo.png" alt="Moonex" className="h-14 w-18" />
+
         </div>
         
         <div className="hidden md:flex items-center gap-8">

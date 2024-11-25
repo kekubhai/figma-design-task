@@ -27,13 +27,13 @@ export default function Features() {
 
   return (
     <section className="py-20">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 "  >
         <h2 className="text-4xl font-bold text-center mb-12">
           Our <span className="text-yellow-400">Features</span>
         </h2>
         
         <div className="grid md:grid-cols-4 gap-8">
-          {features.map((feature, index) => (
+             {features.map((feature, index) => (
             <Card key={index} className="bg-[#0F1729] border-gray-800">
               <CardHeader>
                 <feature.icon className="w-10 h-10 text-yellow-400 mb-4" />
@@ -49,4 +49,5 @@ export default function Features() {
     </section>
   )
 }
+
 

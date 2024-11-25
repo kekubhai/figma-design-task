@@ -8,24 +8,24 @@ export default function Comparison() {
     "Point no two this",
     "Point no two this",
   ]
-
+  
   return (
-    <section className="py-20">
-      <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold mb-12">
-          Why <span className="text-yellow-400">MoonEX</span> ?
+    <section className="w-full">
+      <div className="container text-2xl border-blue-300 rounded-lg" style={{backgroundImage: `url('/bg-gradient-img.png')`, backgroundSize: 'cover', backgroundPosition: 'center', height: '100vh'}}>
+        <h2 className="text-4xl  font-bold mb-12 mt-2 p-4">
+          Why <span className="text-yellow-400 ">MoonEX</span> ?
         </h2>
         
         <div className="grid grid-cols-3 gap-4 max-w-3xl mx-auto">
-          <div className="text-gray-400">Comparison</div>
+          <div className="text-yellow-400">Comparison</div>
           <div className="text-center">
             <img src="/public/logo.png" alt="" className="h-12 w-111 mx-auto mb-2 " sizes='20' />
             
           </div>
-          <div className="flex items-center m-2 ">
+          <div className="flex items-center  ">
             <img src="/public/image.png" alt="Uniswap" className=" px-10 mb-1 w-15 h-12  bg-transparent object-cover rounded-full" 
             />
-            <span className='text-pink-400   font-3xl font-mono'>Uniswap</span>
+            <span className='text-pink-400    font-mono'>Uniswap</span>
           </div>
           
           {features.map((feature, index) => (
@@ -43,6 +43,7 @@ export default function Comparison() {
           ))}
         </div>
       </div>
+          <img/>
     </section>
   )
 }

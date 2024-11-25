@@ -22,8 +22,11 @@ import {
     ]
   
     return (
-      <section className="py-20">
-        <div className="container mx-auto px-4">
+      <div >
+
+      <section className="py-20" style={{backgroundImage: `url('/bg.png')`, backgroundSize: 'cover',   width:'1000vh', backgroundPosition: 'center', height: '100vh'}}>
+       
+        <div className="container mx-auto px-4 ">
           <h2 className="text-4xl font-bold text-center mb-12">
             <span className="text-yellow-400">FAQs</span>
           </h2>
@@ -42,6 +45,7 @@ import {
           </Accordion>
         </div>
       </section>
+            </div>
     )
   }
   

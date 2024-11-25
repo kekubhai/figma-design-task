@@ -3,12 +3,12 @@ import {  DiscIcon as Discord, RssIcon as Reddit } from 'lucide-react'
 
 export default function Footer() {
   return (
-    <footer className="border-t border-gray-800">
+    <footer className="bg-slate-950 border-gray-800">
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex items-center gap-2">
-            <img src="/logo.jpg" alt="Moonex" className="h-8 w-8" />
-            <span className="text-xl font-bold">Moonex</span>
+            <img src="/logo.png" alt="Moonex" className="h-18 w-18" />
+
           </div>
           
           <div className="flex gap-8">
