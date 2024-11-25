@@ -14,10 +14,10 @@ export default function Navbar() {
           <a href="#" className="hover:text-yellow-400">About Us</a>
           <a href="#" className="hover:text-yellow-400">Roadmap</a>
           <a href="#" className="hover:text-yellow-400">FAQs</a>
-          <a href="#" className="hover:text-yellow-400">Contact Us</a>
+          <a href="#" className="hover:text-yellow-400 ">Contact Us</a>
         </div>
 
-        <Button className="bg-yellow-400 text-black hover:bg-yellow-500">
+        <Button className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full">
           Connect Wallet
         </Button>
       </div>

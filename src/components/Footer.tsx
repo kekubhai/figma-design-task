@@ -1,6 +1,7 @@
 import { TwitterLogoIcon } from '@radix-ui/react-icons'
-import {  DiscIcon as Discord, RssIcon as Reddit } from 'lucide-react'
 
+import { FaTelegram } from "react-icons/fa";
+import { FaRedditAlien } from "react-icons/fa"
 export default function Footer() {
   return (
     <footer className="bg-slate-950 border-gray-800">
@@ -18,16 +19,22 @@ export default function Footer() {
             <a href="#" className="hover:text-yellow-400">Contact Us</a>
           </div>
           
-          <div className="flex gap-4">
+          <div className=" gap-4">
+          <h2 className="text-4xl  font-bold  mt-2 p-4">
+          Contact <span className="text-yellow-400 ">Us</span> ?
+        </h2>
+        <div className='flex pt-1 space-x-5 px-13 ml-28'>
+
             <a href="#" className="hover:text-yellow-400">
-              <Discord className="w-6 h-6" />
+              <FaTelegram className="w-6 h-6" />
             </a>
             <a href="#" className="hover:text-yellow-400">
-              <Reddit className="w-6 h-6" />
+              <FaRedditAlien className="w-6 h-6" />
             </a>
             <a href="#" className="hover:text-yellow-400">
               <TwitterLogoIcon className="w-6 h-6" />
             </a>
+        </div>
           </div>
         </div>
       </div>

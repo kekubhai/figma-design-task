@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 import '../app/globals.css'
 export default function App() {
   return (
-    <div className=" w-full max-w-screen bg-[#0B1221] text-white">
+    <div className="  max-w-screen bg-[#0B1221] text-white">
       <Navbar />
       <main>
         <Hero />
