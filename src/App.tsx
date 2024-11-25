@@ -4,10 +4,13 @@ import Comparison from './components/Comparison'
 import Features from './components/Features'
 import Faq from './components/Faq'
 import Footer from './components/Footer'
-import '../app/globals.css'
+import './index.css'
+
+
+
 export default function App() {
   return (
-    <div className="  max-w-screen bg-[#0B1221] text-white">
+    <div className="   bg-[#0B1221] text-white">
       <Navbar />
       <main>
         <Hero />

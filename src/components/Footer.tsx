@@ -11,7 +11,18 @@ export default function Footer() {
             <img src="/logo.png" alt="Moonex" className="h-18 w-18" />
 
           </div>
-          
+          <div className="flex flex-col md:flex-row gap-4 md:gap-8">
+            <div className="flex flex-col gap-2">
+              <a href="#" className="hover:text-yellow-400">Terms of Service</a>
+              <a href="#" className="hover:text-yellow-400">Privacy Policy</a>
+              <a href="#" className="hover:text-yellow-400">Disclaimer</a>
+            </div>
+            <div className="flex flex-col gap-2">
+              <a href="#" className="hover:text-yellow-400">Support</a>
+              <a href="#" className="hover:text-yellow-400">Community</a>
+              <a href="#" className="hover:text-yellow-400">Blog</a>
+            </div>
+          </div>
           <div className="flex gap-8">
             <a href="#" className="hover:text-yellow-400">About Us</a>
             <a href="#" className="hover:text-yellow-400">Roadmap</a>
@@ -21,7 +32,7 @@ export default function Footer() {
           
           <div className=" gap-4">
           <h2 className="text-4xl  font-bold  mt-2 p-4">
-          Contact <span className="text-yellow-400 ">Us</span> ?
+          Contact <span className="text-yellow-400 ">Us</span> 
         </h2>
         <div className='flex pt-1 space-x-5 px-13 ml-28'>
 

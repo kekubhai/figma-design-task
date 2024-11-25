@@ -2,24 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  * {
+    box-sizing: border-box;
+  }
 
-/* General Reset */
+  body {
+    font-size: 16px;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer {
+    padding: 0.5rem;
+    font-size: 0.7rem;
+  }
+
+  /* Add more styles as needed for mobile responsiveness */
+}
+
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  
 }
 
-html, body {
-  width: 100%;
-  height: 100%;
-  font-family: 'Arial', sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
-  line-height: 1.6;
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
-/* Wrapper for full-page layout */
+
 #root {
   display: flex;
   flex-direction: column;
@@ -32,7 +51,7 @@ html, body {
 /* Main Content */
 main {
   flex: 1;
-  padding: 2rem;
+ 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,8 +60,7 @@ main {
 
 /* Footer */
 footer {
-  background-color: #333;
-  color: #fff;
+ 
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
@@ -54,7 +72,7 @@ footer {
 
 /* Forms */
 input, textarea, select {
-  width: 100%;
+ 
   padding: 0.8rem;
   margin: 0.5rem 0;
   border: 1px solid #ccc;
@@ -78,14 +96,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Responsive Grid */
 
-
-/* Cards */
-
-
-
-/* Utility Classes */
 .text-center {
   text-align: center;
 }
