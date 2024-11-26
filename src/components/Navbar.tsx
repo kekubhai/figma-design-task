@@ -7,12 +7,12 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 w-full z-50 bg-transparent backdrop-blur-sm">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-        {/* Logo Section */}
+    
         <div className="flex items-center gap-2">
           <img src="./logo.png" alt="Moonex" className="h-14 w-18" />
         </div>
 
-        {/* Collapsible Button for Mobile */}
+     
         <div className="md:hidden">
           <button
             className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full p-2"
@@ -35,7 +35,7 @@ export default function Navbar() {
           </button>
         </div>
 
-        {/* Links Section */}
+       
         <div
           id="navbar"
           className={`${
@@ -57,9 +57,10 @@ export default function Navbar() {
           <a href="#" className="block py-2 md:py-0 hover:text-yellow-400">
             Contact Us
           </a>
+          
         </div>
 
-        {/* Connect Wallet Button */}
+       
         <div className="hidden md:block">
           <Button className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full">
             Connect Wallet
@@ -67,7 +68,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile "Connect Wallet" Button */}
+    
       <div
         className={`${
           isMenuOpen ? "block" : "hidden"

@@ -34,7 +34,7 @@ export default function Footer() {
           <h2 className="text-4xl  font-bold  mt-2 p-4">
           Contact <span className="text-yellow-400 ">Us</span> 
         </h2>
-        <div className='flex pt-1 space-x-5 px-13 ml-28'>
+        <div className='flex   align-centre space-x-4  justify-center'>
 
             <a href="#" className="hover:text-yellow-400">
               <FaTelegram className="w-6 h-6" />
