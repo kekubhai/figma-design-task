@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 
 export default function Hero() {
   return (
-    <div className="relative inline-block w-full  mt-20 mb-32">
+    <div className="relative inline-block w-full py-20 mt-30 mb-32">
       
       <img 
         src="/bg.png" 
